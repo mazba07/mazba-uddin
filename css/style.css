@@ -325,6 +325,12 @@ p {
     padding: 0 4em;
 }
 
+.skills-text h2 {
+    color: #f5f5f5;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
 .progress {
     height: 10px;
     margin-bottom: 2.2em;
