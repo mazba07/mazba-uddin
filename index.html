@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Mazba Uddin</title>
     <!--mobile apps-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
     <script type="application/x-javascript"> addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
 
-    function hideURLbar() {
-        window.scrollTo(0, 1);
-    } </script>
+    // function hideURLbar() {
+    //     window.scrollTo(0, 1);
+    // } 
+    </script>
 
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
@@ -20,11 +22,11 @@
 
     <!--web-fonts-->
     <link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet'
-          type='text/css'>
+        type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic'
-          rel='stylesheet' type='text/css'>
-    <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
-          rel='stylesheet' type='text/css'>
+        rel='stylesheet' type='text/css'>
+    <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'
+        type='text/css'>
     <!--//web-fonts-->
     <!--mobile apps-->
     <!--Custom Theme files-->
@@ -43,7 +45,7 @@
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
                 event.preventDefault();
-                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
             });
         });
     </script>
@@ -51,336 +53,496 @@
     <script src="js/bootstrap.js"></script>
 
 </head>
-<body>
-<!--banner-->
-<div id="home" class="banner">
-    <div class="banner-info">
-        <div class="container">
-            <div class="col-md-4 header-left">
-                <img src="images/mazba-uddin.jpg" alt=""/>
-            </div>
-            <div class="col-md-8 header-right">
-                <h2>Hello</h2>
-                <h1>I'm Mazba Uddin</h1>
-                <h6>Web Application Developer</h6>
-                <ul class="address">
-                    <li>
-                        <ul class="address-text">
-                            <li><b>PHONE </b></li>
-                            <li>+880 1737231889, 01</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="address-text">
-                            <li><b>ADDRESS </b></li>
-                            <li>Officer housing, West dandabor, Savar, Dhaka, Bangladesh 1344</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="address-text">
-                            <li><b>E-MAIL </b></li>
-                            <li><a href="mailto:mazba09@gmail.com"> mazba09@gmail.com</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="address-text">
-                            <li><b>WEBSITE </b></li>
-                            <li><a href="https://mazba07.github.io/me/">www.mazba07.github.io/me</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul class="address-text">
-                            <li><b>SOCIAL MEDIA</b></li>
-                            <li>
-                                <a href="https://mazba07.github.io/me" target="_blank">
-                                    <i class="fa fa-github-square" aria-hidden="true"></i></a>
-                                <a href="https://www.linkedin.com/in/mazba-uddin-1155b1b3" target="_blank">
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                                <a href="https://github.com/mazba07" target="_blank">
-                                    <i class="fa fa-code" aria-hidden="true"></i></a>
-                                <a href="https://twitter.com/mazba06" target="_blank">
-                                    <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                                <a href="https://www.facebook.com/mazba06" target="_blank">
-                                    <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
-<!--//banner-->
-<!--top-nav-->
-<div class="top-nav wow">
-    <div class="container">
-        <div class="navbar-header logo">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                Menu
-            </button>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <div class="menu">
-                <ul class="nav navbar">
-                    <li><a href="#about" class="scroll">About</a></li>
-                    <li><a href="#work" class="scroll">Experience</a></li>
-                    <li><a href="#education" class="scroll">Education</a></li>
-                    <li><a href="#skills" class="scroll">Skills</a></li>
-                    <li><a href="#projects" class="scroll">My Projects</a></li>
-                    <li><a href="#contact" class="scroll">Contact</a></li>
-                </ul>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--//top-nav-->
-<!--about-->
-<div id="about" class="about">
-    <div class="container">
-        <h3 class="title"> About Me</h3>
-        <div class="col-md-7 about-left">
-            <p>Professional experience in Web development, Network management and sound knowledge of the PHP, NodeJS ,
-                AngularJS, JavaScript, Ajax, CSS3, HTML5, Java and C. Ability to develop and design Web Pages and make
-                them functional. Good Experience of office networking like LAN, WLAN, server maintenance, IP Camera
-                network, PBX network etc.
-            </p>
-        </div>
-        <div class="col-md-5 about-right">
-            <ul>
-                <h5>Awards</h5>
-                <li><span class="glyphicon glyphicon-menu-right"></span> Ability to work in a fast-paced environment to
-                    set deadlines
-                </li>
-                <li><span class="glyphicon glyphicon-menu-right"></span> Highly organised with a creative flair for
-                    project work
-                </li>
-                <li><span class="glyphicon glyphicon-menu-right"></span> Enthusiastic self-starter who contributes well
-                    to the team
-                </li>
-                <li><span class="glyphicon glyphicon-menu-right"></span> Quick Learner, Eager to widen the horizon of my
-                    professional knowledge
-                </li>
-                <li><span class="glyphicon glyphicon-menu-right"></span> Work well under pressure as a part of a team,
-                    well-groomed appearance
-                </li>
-            </ul>
-            <div class="clearfix"></div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-</div>
-<!--//about-->
-<!--work-experience-->
-<div id="work" class="work">
-    <div class="container">
-        <h3 class="title">Work Experience</h3>
-        <div class="work-info">
-            <div class="col-md-4 work-left">
-                <h4>September 2015 - Present.. </h4>
-            </div>
-            <div class="col-md-8 work-right">
-                <h5><span class="glyphicon glyphicon-briefcase"> </span> Agency Delta</h5>
-                <p>Agency Delta, LLC., is a web development company with offices in the Washington, D.C. and Dhaka. Our
-                    major
-                    focuses are in creating applications that change the way people interact with each other and in the
-                    economy.</p>
-                <br>
-                <p>Agency Delta’s mission is to build applications that simplifies people's lives, allow them to
-                    enterprise easier and save the planet.</p>
-                <br>
-                <p>Agency Delta’s vision is to bring communities closer and reduce their carbon footprints.</p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="work-info">
-            <div class="col-md-4 work-left">
-                <h4>May 2015 - August 2015 </h4>
-            </div>
-            <div class="col-md-8 work-right">
-                <h5><span class="glyphicon glyphicon-briefcase"> </span> Techforing</h5>
-                <p>TechForing Ltd. is a premier team of certified professionals in the digital technology industry. We
-                    provide solutions for technical, engineering, and information technology markets. The variety of
-                    digital services we offer address critical and complex technology needs. Many of our clients achieve
-                    success in the verticals of consumer products, business, energy, and financial services.</p>
-                <br>
-                <p>For years, we’ve remained committed to delivering quality service to individuals, small business
-                    owners, and enterprises alike. Our solutions are proven and repeatable. We use a data security
-                    approach that synergistically integrates People, Process, and Platform. We place a strong focus on
-                    our client’s requirements, employing streamlined methodologies, and providing best-of-class
-                    service.</p>
-                <br>
-                <p>The cutting edge leadership you need to consult with you or manage your online team is available. We
-                    take pride in our ability to provide seamless integration with no disruption to your workflow. Our
-                    teams work in various locations, mainly Istanbul, Dhaka and Virginia and consist of certified
-                    professionals with over 15 years of experience in our specific digital services.</p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="work-info">
-            <div class="col-md-4 work-left">
-                <h4>December 2014 - April 2015 </h4>
-            </div>
-            <div class="col-md-8 work-right">
-                <h5><span class="glyphicon glyphicon-briefcase"> </span> Nobo IT</h5>
-                <p>Nobo IT is a growing up software company in Bangladesh. We provide domain registration, hosting, web
-                    application and digital marketing services.</p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
-<!--//work-experience-->
-<!--education-->
-<div id="education" class="education">
-    <div class="container">
-        <h3 class="title">Education</h3>
-        <div class="work-info">
-            <div class="col-md-4 work-left">
-                <h4>May 2010 – December 2014</h4>
-            </div>
-            <div class="col-md-8 work-right">
-                <h5><span class="glyphicon glyphicon-education"> </span> B.Sc. in Computer Science and Engineering</h5>
-                <p>Shahjalal University of Science and Technology (SUST)</p>
-                <p>Institute: Sylhet Engineering College</p>
-                <p><a href="http://www.sec.ac.bd" target="_blank">http://www.sec.ac.bd</a></p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="work-info">
-            <div class="col-md-4 work-left">
-                <h4>March 2013 – March 2014</h4>
-            </div>
-            <div class="col-md-8 work-right">
-                <h5><span class="glyphicon glyphicon-education"> </span> Cisco Certified Network Associate (CCNA)</h5>
-                <p>Shahjalal University of Science and Technology (SUST)</p>
-                <p><strong>Topic:</strong> Network Fundamentals, Routing Protocols and Concepts, LAN Switching and
-                    Wireless, Accessing the WAN</p>
-                <p><a href="http://www.sust.edu" target="_blank">http://www.sust.edu</a></p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="work-info">
-            <div class="col-md-4 work-left">
-                <h4>June 2007 – May 2009</h4>
-            </div>
-            <div class="col-md-8 work-right">
-                <h5><span class="glyphicon glyphicon-education"> </span> Higher Secondary Certificate in Science</h5>
-                <p>Dhaka College, Dhaka, Bangladesh</p>
-                <p><a href="http://www.dhakacollege.edu.bd" target="_blank">http://www.dhakacollege.edu.bd</a></p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
-<!--//education-->
-<!--skills-->
-<div id="skills" class="skills">
-    <div class="container">
-        <h3 class="title">Skills</h3>
-        <div class="skills-info">
-            <div class="col-xs-12 skills-text">
-                <h2><strong>Programming Language:</strong>
-                    <br>
-                    PHP, Node.js, JavaScript, CSS3, HTML5, Java and C
-                </h2>
-                <h2><strong>Framework:</strong>
-                    <br>
-                    Codeigniter, Bootstrap, AngularJS, ExpressJS, AdonisJs
-                </h2>
-                <h2><strong>Database:</strong>
-                    <br>
-                    MySql, Firebase
-                </h2>
-                <h2><strong>Others:</strong>
-                    <br>
-                    Concept on Facebook APIs, JSON parsing, Google maps Location based Services
-                </h2>
-                <h2><strong>Networking:</strong>
-                    <br>
-                    Network Connectivity Services (CCNA certified), Create and maintain LAN, WLAN, IP Camera Network,
-                    Intercom Network and concept on Network Fundamentals, Routing Protocols, LAN Switching and Wireless,
-                    Accessing the WAN
-                </h2>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
-<!--//education-->
-<!--portfolio-->
-<div id="projects" class="portfolio">
-    <div class="container">
-        <h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">My Projects</h3>
-        <div class="col-md-4 portfolio-grids">
-            <div class="grid">
-                <img src="images/far52-p.jpg" alt="" class="img-responsive"/>
-                <div class="figcaption">
-                    <h3><span> far52.com</span></h3>
-                    <p>Our mission is to connect Contracting Professionals past and present in order to bridge the
-                        knowledge gap.</p>
-                    <p>Visit: <a href="https://www.far52.com/" target="_blank">far52.com</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--//portfolio-->
-<!--contact -->
-<div class="welcome contact" id="contact">
-    <div class="container">
-        <h3 class="title">Contact Us</h3>
-        <div class="contact-row">
-            <div class="col-md-6 contact-left">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233479.38111855913!2d90.12782652718712!3d23.88552874457003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e9cdc8bac3b5%3A0xc155530f1e9923d6!2sSavar%20Upazila!5e0!3m2!1sen!2sbd!4v1578998445848!5m2!1sen!2sbd"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            </div>
-            <div class="col-md-6 contact-right">
-                <div class="address-left">
-                    <p>Officer housing, West dandabor, Savar,<br> Dhaka, Bangladesh 1344 </p>
-                </div>
-                <div class="address-right">
-                    <p>Call me : +880 1737231889</p>
-                    <p>E-mail : <a href=" mazba09@gmail.com"> mazba09@gmail.com</a></p>
-                </div>
-                <div class="clearfix"></div>
-                <div class="contact-form">
-                    <form action="#" method="post">
-                        <input type="text" name="Name" placeholder="Name" required="">
-                        <input class="email" name="Email" type="text" placeholder="Email" required="">
-                        <input class="phone" name="phone" type="text" placeholder="Phone" required="">
-                        <textarea name="Message" placeholder="Message" required=""></textarea>
-                        <input type="submit" value="SUBMIT">
-                    </form>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
-<!--//contact -->
-<!--footer-->
-<div class="footer">
-    <div class="container">
-        <p>© 2016 Mazba Uddin Resume. All rights reserved</p>
-    </div>
-</div>
-<!--//footer-->
-<!--smooth-scrolling-of-move-up-->
-<script type="text/javascript">
-    $(document).ready(function () {
-        var defaults = {
-            containerID: 'toTop', // fading element id
-            containerHoverID: 'toTopHover', // fading element hover id
-            scrollSpeed: 1200,
-            easingType: 'linear'
-        };
 
-        $().UItoTop({easingType: 'easeOutQuart'});
-    });
-</script>
+<body>
+    <!--banner-->
+    <div id="home" class="banner">
+        <div class="banner-info">
+            <div class="container">
+                <div class="col-md-4 header-left">
+                    <img src="images/mazba-uddin.jpg" alt="" />
+                </div>
+                <div class="col-md-8 header-right">
+                    <h2>Hello</h2>
+                    <h1>I'm Mazba Uddin</h1>
+                    <h6>Web Application Developer</h6>
+                    <ul class="address">
+                        <li>
+                            <ul class="address-text">
+                                <li><b>PHONE </b></li>
+                                <li>(+880) 1737231889</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>ADDRESS </b></li>
+                                <li>Dandabor officer housing, Savar cantonment, Savar, 1344, Dhaka, Bangladesh</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>E-MAIL </b></li>
+                                <li><a href="mailto:mazba09@gmail.com"> mazba09@gmail.com</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>WEBSITE </b></li>
+                                <li><a href="https://mazba07.github.io/me/">www.mazba07.github.io/me</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>SOCIAL MEDIA</b></li>
+                                <li>
+                                    <a href="https://mazba07.github.io/me" target="_blank">
+                                        <i class="fa fa-github-square" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/mazba-uddin-1155b1b3" target="_blank">
+                                        <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                    <a href="https://github.com/mazba07" target="_blank">
+                                        <i class="fa fa-code" aria-hidden="true"></i></a>
+                                    <a href="https://twitter.com/mazba06" target="_blank">
+                                        <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/mazba06" target="_blank">
+                                        <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--//banner-->
+    <!--top-nav-->
+    <div class="top-nav wow">
+        <div class="container">
+            <div class="navbar-header logo">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    Menu
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="menu">
+                    <ul class="nav navbar">
+                        <li><a href="#about" class="scroll">About</a></li>
+                        <li><a href="#work" class="scroll">Experience</a></li>
+                        <li><a href="#education" class="scroll">Education</a></li>
+                        <li><a href="#skills" class="scroll">Skills</a></li>
+                        <li><a href="#projects" class="scroll">My Projects</a></li>
+                        <li><a href="#contact" class="scroll">Contact</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//top-nav-->
+    <!--about-->
+    <div id="about" class="about">
+        <div class="container">
+            <h3 class="title"> About Me</h3>
+            <div class="col-md-7 about-left">
+                <p>I am a full-stack web application developer having more than 5+ years of experience and having good
+                    knowledge of front-end and back-end techniques for building web applications that match client
+                    needs. I have developed several web applications from scratch for US-based companies ranging from
+                    small to large, but at the same time, I manage and update the client’s existing projects also as I
+                    have outstanding debugging skills.
+                </p>
+                <br>
+                <P>Beside that, I have professional experience in Network management (CCNA certified). Good Experience
+                    of office networking like LAN, WLAN,
+                    server maintenance, IP Camera network, PBX network etc.</P>
+            </div>
+            <div class="col-md-5 about-right">
+                <ul>
+                    <h5>Awards</h5>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Ability to work in a fast-paced environment
+                        to set deadlines.
+                    </li>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Highly organised with a creative flair for
+                        project work.
+                    </li>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Enthusiastic self-starter who contributes
+                        well to the team.
+                    </li>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Quick Learner, Eager to widen the horizon
+                        of my professional knowledge.
+                    </li>
+                    <li><span class="glyphicon glyphicon-menu-right"></span> Work well under pressure as a part of a
+                        team, well-groomed appearance.
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!--//about-->
+    <!--work-experience-->
+    <div id="work" class="work">
+        <div class="container">
+            <h3 class="title">Work Experience</h3>
+            <div class="work-info">
+                <div class="col-md-4 work-left">
+                    <h4>01/09/2015 – 31/12/2020</h4>
+                </div>
+                <div class="col-md-8 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span> Agency Delta</h5>
+                    <p>Position: Software Engineer</p>
+                    <p>Main activities and responsibilities:</p>
+                    <ol class="office-responsibility">
+                        <li>Communication with clients to update development progress in regularly.</li>
+                        <li>Writing efficient code and creating websites using standard programming
+                            languages.</li>
+                        <li>Integrate data from various back-end services and databases.</li>
+                        <li>Researching different software programs, maintaining software documentation.</li>
+                        <li>Stay plugged into emerging technologies/industry trends and apply them into
+                            operations and activities.</li>
+                        <li>Working closely with web designers and programmers to produce the website.</li>
+                        <li>Constant communication with other colleagues in the business to develop and
+                            deploy their content – and ensuring there is a clear establishment of what can be
+                            created within what timeframe.</li>
+                        <li>Maintaining and expanding/enhancing the website once built.
+                        </li>
+                    </ol>
+                    <p>Agency Delta, LLC., is a web development company with offices in the Washington, D.C. and Dhaka.
+                        Our
+                        major
+                        focuses are in creating applications that change the way people interact with each other and in
+                        the
+                        economy.</p>
+                    <br>
+                    <p>Agency Delta’s mission is to build applications that simplifies people's lives, allow them to
+                        enterprise easier and save the planet.</p>
+                    <br>
+                    <p>Agency Delta’s vision is to bring communities closer and reduce their carbon footprints.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="work-info">
+                <div class="col-md-4 work-left">
+                    <h4>01/04/2015 – 01/07/2015</h4>
+                </div>
+                <div class="col-md-8 work-right">
+                    <h5><span class="glyphicon glyphicon-briefcase"> </span> Techforing</h5>
+                    <p>Position: Script writer and video editor</p>
+                    <p>Main activities and responsibilities:</p>
+                    <ol class="office-responsibility">
+                        <li>Writing script of several programming languages to create a video tutorials for online
+                            students.</li>
+                        <li>Synchronizing video and audio using Camtasia software.</li>
+                        <li>Managing a team might also be part of the job role.</li>
+                    </ol>
+                    <p>TechForing Ltd. is a premier team of certified professionals in the digital technology industry.
+                        We
+                        provide solutions for technical, engineering, and information technology markets. The variety of
+                        digital services we offer address critical and complex technology needs. Many of our clients
+                        achieve
+                        success in the verticals of consumer products, business, energy, and financial services.</p>
+                    <br>
+                    <p>For years, we’ve remained committed to delivering quality service to individuals, small business
+                        owners, and enterprises alike. Our solutions are proven and repeatable. We use a data security
+                        approach that synergistically integrates People, Process, and Platform. We place a strong focus
+                        on
+                        our client’s requirements, employing streamlined methodologies, and providing best-of-class
+                        service.</p>
+                    <br>
+                    <p>The cutting edge leadership you need to consult with you or manage your online team is available.
+                        We
+                        take pride in our ability to provide seamless integration with no disruption to your workflow.
+                        Our
+                        teams work in various locations, mainly Istanbul, Dhaka and Virginia and consist of certified
+                        professionals with over 15 years of experience in our specific digital services.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--//work-experience-->
+    <!--education-->
+    <div id="education" class="education">
+        <div class="container">
+            <h3 class="title">Education</h3>
+            <div class="work-info">
+                <div class="col-md-4 work-left">
+                    <h4>01/05/2010 – 05/07/2015</h4>
+                </div>
+                <div class="col-md-8 work-right">
+                    <h5><span class="glyphicon glyphicon-education"> </span> B.Sc. in Computer Science and Engineering
+                    </h5>
+                    <p>Shahjalal University of Science and Technology (SUST)</p>
+                    <p>Institute: Sylhet Engineering College</p>
+                    <p><strong>Main subjects:</strong></p>
+                    <p>Artificial Intelligence, Structured Programming Language (C), Object Oriented Programming
+                        Language (JAVA), Data Structure, Algorithm, Digital Logic Design (DLD), Computer Networks,
+                        Computer Architecture, Operating System, Software Engineering and Information System Design. etc
+                    </p>
+                    <p><a href="http://www.sec.ac.bd" target="_blank">http://www.sec.ac.bd</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="work-info">
+                <div class="col-md-4 work-left">
+                    <h4>01/06/2007 – 01/05/2009</h4>
+                </div>
+                <div class="col-md-8 work-right">
+                    <h5><span class="glyphicon glyphicon-education"> </span> Higher Secondary Certificate (HSC) in
+                        Science
+                    </h5>
+                    <p>Dhaka College, Dhaka, Bangladesh</p>
+                    <p><strong>Main subjects:</strong></p>
+                    <p>Bangla, English, Physics, Chemistry, Biology, Mathematics. etc
+                    </p>
+                    <p><a href="http://www.dhakacollege.edu.bd" target="_blank">http://www.dhakacollege.edu.bd</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="work-info">
+                <div class="col-md-4 work-left">
+                    <h4>01/03/2013 – 01/03/2014</h4>
+                </div>
+                <div class="col-md-8 work-right">
+                    <h5><span class="glyphicon glyphicon-education"> </span> Cisco Certified Network Associate (CCNA)
+                    </h5>
+                    <p>Shahjalal University of Science and Technology (SUST)</p>
+                    <p><strong>Topic:</strong> Network Fundamentals, Routing Protocols and Concepts, LAN Switching and
+                        Wireless, Accessing the WAN</p>
+                    <p><a href="http://www.sust.edu" target="_blank">http://www.sust.edu</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--//education-->
+    <!--skills-->
+    <div id="skills" class="skills">
+        <div class="container">
+            <h3 class="title">Skills</h3>
+            <div class="skills-info">
+                <div class="col-xs-12 skills-text">
+                    <div class="skill-block">
+                        <h3>Programming Language</h3>
+                        <p>
+                            PHP | NodeJS | JavaScript | CSS3 | HTML5 | Java | C
+                        </p>
+                    </div>
+
+                    <div class="skill-block">
+                        <h3>Framework</h3>
+                        <p>
+                            CodeIgniter (PHP Framework) | AngularJS | Nodejs + Expressjs | Bootstrap | AdonisJ S
+                        </p>
+                    </div>
+
+                    <div class="skill-block">
+                        <h3>Database</h3>
+                        <p>
+                            SQL/MYSQL | Firebase | MongoDB
+                        </p>
+                    </div>
+
+                    <div class="skill-block">
+                        <h3>Online payment gateway</h3>
+                        <p>
+                            Stripe payment API | Braintree payment API
+                        </p>
+                    </div>
+
+                    <div class="skill-block">
+                        <h3>Others</h3>
+                        <p>
+                            Git | Socket.io | JQuery | Facebook API | JSON parsing | Google maps location based Services
+                        </p>
+                    </div>
+
+                    <div class="skill-block">
+                        <h3>Networking:</h3>
+                        <p>
+                            Network Connectivity Services (CCNA certified) | Create and maintain LAN | WLAN | IP Camera
+                            | Intercom Network and concept on Network Fundamentals | Routing Protocols | LAN Switching |
+                            Wireless | Accessing the WAN
+                        </p>
+                    </div>
+
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--//education-->
+    <!--portfolio-->
+    <div id="projects" class="portfolio">
+        <div class="container">
+            <h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">My Projects</h3>
+            <div class="col-md-4 portfolio-grids">
+                <div class="grid">
+                    <img src="images/far52-image/FireShot Capture 010 - FAR 52 - far52.com - www.far52.com-min.png" alt="" class="img-responsive">
+                    <div class="figcaption">
+                        <h3><span>far52.com</span></h3>
+                        <p class="">
+                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">
+                                See My contribution
+                            </button>
+                        </p>
+                        <p>Visit: <a href="https://www.far52.com/" target="_blank">far52.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//portfolio-->
+    <!--contact -->
+    <div class="welcome contact" id="contact">
+        <div class="container">
+            <h3 class="title">Contact Us</h3>
+            <div class="contact-row">
+                <div class="col-md-6 contact-left">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233479.38111855913!2d90.12782652718712!3d23.88552874457003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e9cdc8bac3b5%3A0xc155530f1e9923d6!2sSavar%20Upazila!5e0!3m2!1sen!2sbd!4v1578998445848!5m2!1sen!2sbd"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="col-md-6 contact-right">
+                    <div class="address-left">
+                        <p>Officer housing, West dandabor, Savar,<br> Dhaka, Bangladesh 1344 </p>
+                    </div>
+                    <div class="address-right">
+                        <p>Call me : +880 1737231889</p>
+                        <p>E-mail : <a href=" mazba09@gmail.com"> mazba09@gmail.com</a></p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="contact-form">
+                        <form action="#" method="post">
+                            <input type="text" name="Name" placeholder="Name" required="">
+                            <input class="email" name="Email" type="text" placeholder="Email" required="">
+                            <input class="phone" name="phone" type="text" placeholder="Phone" required="">
+                            <textarea name="Message" placeholder="Message" required=""></textarea>
+                            <input type="submit" value="SUBMIT">
+                        </form>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--//contact -->
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <p>© 2016 Mazba Uddin Resume. All rights reserved</p>
+        </div>
+    </div>
+    <!--//footer-->
+    <!--smooth-scrolling-of-move-up-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    </script>
 </body>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/far52-image/FireShot Capture 010 - FAR 52 - far52.com - www.far52.com-min.png"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde illum ratione ab
+                                    voluptas. </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/far52-image/FireShot Capture 011 - FAR 52 - far52.com - www.far52.com-min.png"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/far52-image/FireShot Capture 012 - FAR 52 - far52.com - www.far52.com-min.png"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/far52-image/FireShot Capture 014 - Cost Reimbursement Supply - www.far52.com-min.png"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/far52-image/FireShot Capture 015 - FAR 52 - far52.com - www.far52.com-min.png"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/far52-image/FireShot Capture 016 - FAR 52 - far52.com - www.far52.com-min.png"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/far52-image/FireShot Capture 017 - William Vosbikian - www.far52.com-min.png"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/far52-image/FireShot Capture 018 - FAR 52 - far52.com - www.far52.com-min.png"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/far52-image/FireShot Capture 019 - John Moua - www.far52.com-min.png"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </html>

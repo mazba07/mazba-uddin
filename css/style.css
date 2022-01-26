@@ -752,6 +752,24 @@ h2.resp-accordion {
     filter: alpha(opacity=0);
 }
 
+.office-responsibility{
+    font-size: 1em;
+    color: #999;
+    line-height: 1.8em;
+    margin-bottom: 2em;
+}
+.skill-block{
+    margin-bottom: 37px;
+}
+.skill-block h3{
+    color: #efebeb;
+    font-weight: 700;
+}
+.skill-block p{
+    font-size: 21px;
+    margin-top: 8px;
+}
+
 /*--//slider-up-arrow--*/
 /*---- responsive-design -----*/
 @media (max-width: 1366px) {
