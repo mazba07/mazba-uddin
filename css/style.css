@@ -1357,3 +1357,19 @@ h2.resp-accordion {
 }
 
 /*--//responsive-design---*/
+
+
+/*screen smaller then 992px*/
+@media only screen and (max-width: 750px) {
+    .small-device-work-left {
+        width: 100%;
+    }
+    .small-device-work-right {
+        width: 100%;
+    }
+
+    .work-info h4{
+        width: 100%;
+    }
+    
+}
